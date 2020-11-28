@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: auto;
+    width: 100%;
+    position: relative;
+    left: 0;
+    display: block;
+    background-color: black;;
+}
+
+header {
+    height: 64px;
+    width: 100%;
+    background-color: yellow;
+    position: fixed;
+    top: 0;
+    display: block;
+}
+
+main {
+    background-color: lightgray;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 64px;
+    display: block;
+}
