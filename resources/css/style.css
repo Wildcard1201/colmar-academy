@@ -15,10 +15,12 @@ html {
 header {
     height: 64px;
     width: 100%;
-    background-color: yellow;
+    background-color: white;
     position: fixed;
     top: 0;
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 main {
